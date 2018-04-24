@@ -1,0 +1,140 @@
+h1,h2,h5,nav {
+  font-family: 'Russo One', sans-serif;
+}
+
+#blog{
+  padding-top: 3rem;
+}
+
+
+@media only screen and (min-width: 1200px)  {
+  #slider-home {
+    height: 620px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  #slider-home {
+    height: 620px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  #slider-home {
+    height: 400px !important;
+  }
+}
+
+.slides{
+  height: 100% !important;
+}
+
+.indicators{
+  bottom: 2% !important;
+  z-index: 2;
+}
+
+#contato{
+  background:url("../img/background1.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  padding: 30px;
+}
+
+#projetos{
+  background-image:url("../img/background.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+#blog .card-image img{
+  padding-right: -2rem;
+  padding-left: -2rem;
+  width: 150% !important;
+
+}
+
+#botao-artigos{
+  padding-top: 9rem;
+}
+
+.slow {
+ animation-delay: 0.5s;
+}
+.slow1 {
+ animation-delay: 0.5s;
+}
+.slow2 {
+ animation-delay: 1s;
+}
+
+.post{
+    padding-bottom: 2em;
+}
+
+.post h1 {
+    margin-bottom: 0;
+}
+
+.post a:first-child {
+    font-size:0.6em;
+    margin-bottom: 0;
+    line-height: 0em;
+}
+
+.post aside{
+    padding-bottom: 2em;
+}
+
+.post p{
+    padding: 1em 0 1em;
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
+
+#cabecalho {
+    padding: 1em 0 3em;
+}
+
+#cabecalho h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#titulo {
+    position: relative;
+    margin-top: 2em;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#corpo-post p, blockquote{
+    font-size: 1.1em;
+}
+
+blockquote {
+    padding: 1em;
+}
+
+#corpo-post p:last-child{
+    padding-bottom: 2em;
+}
+
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+}
+
+.modal {
+    max-height: 100% !important;
+}
+
+.dropdown-content{
+    overflow: visible !important;
+}

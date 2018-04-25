@@ -8,7 +8,7 @@ $(document).ready(function(){
         hover: true
     });
     $('.dropdownnext').dropdown({
-        gutter: ($('.dropdown-content').width()*1.68)/2.5 + 5,
+        gutter: ($('.dropdown-content').width()*1.43)/2.5 + 5,
         hover: true
     });
     $('.dropdownnext1').dropdown({

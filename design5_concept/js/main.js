@@ -11,6 +11,10 @@ $(document).ready(function(){
         gutter: ($('.dropdown-content').width()*1.68)/2.5 + 5,
         hover: true
     });
+    $('.dropdownnext1').dropdown({
+        gutter: ($('.dropdown-content').width()*1.43)/2.5 + 6,
+        hover: true
+    });
 });
 $('.aniview').AniView();
 $('.projetos').slippry();

@@ -6,7 +6,6 @@ h1,h2,h5,nav {
   padding-top: 3rem;
 }
 
-
 @media only screen and (min-width: 1200px)  {
   #slider-home {
     height: 620px !important;
